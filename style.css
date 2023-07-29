@@ -1,4 +1,22 @@
-
+/* 
 * {
     background-color: aqua;
+} */
+
+body {
+    /* position: absolute; */
+    background-image: url('./assets/moon-base-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+/* Background image by Steve Bidmead from Pixabay */
+
+.top-overlay {
+    position: absolute;
+    background-color: red;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+}   
