@@ -9,7 +9,7 @@
 
 body {
     /* position: absolute; */
-    background-image: url('./assets/moon-base-background.jpg');
+    background-image: url('./assets/images/moon-base-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
