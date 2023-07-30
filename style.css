@@ -51,6 +51,10 @@ body {
  #grid-item-4, #grid-item-5, #grid-item-6, #grid-item-7, #grid-item-8 {
     display: flex;
     /* border: 3px white solid; */
+    background-image: url('./assets/images/transporter-unit.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
     width: 19%;
 }
 
@@ -69,7 +73,9 @@ body {
     grid-template-columns: auto auto auto auto auto;
 }
 
+.first-demon {
     
+}    
 
 
 
