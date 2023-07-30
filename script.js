@@ -2,33 +2,22 @@
 
 // document.getElementById("test").innerHTML = "This is from the script.js file"
 
-
 let transporter1 = document.getElementById("grid-item-4");
 let transporter2 = document.getElementById("grid-item-5");
 let transporter3 = document.getElementById("grid-item-6");
 let transporter4 = document.getElementById("grid-item-7");
 let transporter5 = document.getElementById("grid-item-8");
 
+transporter1.innerHTML = "";
+transporter2.innerHTML = "";
+transporter3.innerHTML = "";
+transporter4.innerHTML = "";
+transporter5.innerHTML = "";
 
+//'<img class="second-demon" height="100" width="125" style="position: relative; left: 122px; top:125px" src="assets/images/demon-phases/second.png">'
 
-let firstDemon4 = document.getElementById("grid-item-4").innerHTML = '<img class="first-demon" height="100" width="125" style="position: relative; left: 122px; top:125px" src="assets/images/demon-phases/first.png">';
-let firstDemon5 = document.getElementById("grid-item-5").innerHTML = '<img class="first-demon" height="100" width="125" style="position: relative; left: 122px; top:125px" src="assets/images/demon-phases/first.png">';
-let firstDemon6 = document.getElementById("grid-item-6").innerHTML = '<img class="first-demon" height="100" width="125" style="position: relative; left: 122px; top:125px" src="assets/images/demon-phases/first.png">';
-let firstDemon7 = document.getElementById("grid-item-7").innerHTML = '<img class="first-demon" height="100" width="125" style="position: relative; left: 122px; top:125px" src="assets/images/demon-phases/first.png">';
-let firstDemon8 = document.getElementById("grid-item-8").innerHTML = '<img class="first-demon" height="100" width="125" style="position: relative; left: 122px; top:125px" src="assets/images/demon-phases/first.png">';
+//'<img class="final-demon" height="300" width="200" style="position: relative; left: 80px; top: 50px" src="assets/images/demon-phases/final.png">'
 
-
-let secondDemon4 = document.getElementById("grid-item-4").innerHTML = '<img class="second-demon" height="100" width="125" style="position: relative; left: 122px; top:125px" src="assets/images/demon-phases/second.png">';
-let secondDemon5 = document.getElementById("grid-item-5").innerHTML = '<img class="second-demon" height="100" width="125" style="position: relative; left: 122px; top:125px" src="assets/images/demon-phases/second.png">';
-let secondDemon6 = document.getElementById("grid-item-6").innerHTML = '<img class="second-demon" height="100" width="125" style="position: relative; left: 122px; top:125px" src="assets/images/demon-phases/second.png">';
-let secondDemon7 = document.getElementById("grid-item-7").innerHTML = '<img class="second-demon" height="100" width="125" style="position: relative; left: 122px; top:125px" src="assets/images/demon-phases/second.png">';
-let secondDemon8 = document.getElementById("grid-item-8").innerHTML = '<img class="second-demon" height="100" width="125" style="position: relative; left: 122px; top:125px" src="assets/images/demon-phases/second.png">';
-
-let finalDemon4 = document.getElementById("grid-item-4").innerHTML = '<img class="final-demon" height="300" width="200" style="position: relative; left: 80px; top: 50px" src="assets/images/demon-phases/final.png">';
-let finalDemon5 = document.getElementById("grid-item-5").innerHTML = '<img class="final-demon" height="300" width="200" style="position: relative; left: 80px; top: 50px" src="assets/images/demon-phases/final.png">';
-let finalDemon6 = document.getElementById("grid-item-6").innerHTML = '<img class="final-demon" height="300" width="200" style="position: relative; left: 80px; top: 50px" src="assets/images/demon-phases/final.png">';
-let finalDemon7 = document.getElementById("grid-item-7").innerHTML = '<img class="final-demon" height="300" width="200" style="position: relative; left: 80px; top: 50px" src="assets/images/demon-phases/final.png">';
-let finalDemon8 = document.getElementById("grid-item-8").innerHTML = '<img class="final-demon" height="300" width="200" style="position: relative; left: 80px; top: 50px" src="assets/images/demon-phases/final.png">';
 
 // if (1<2){
 //  firstDemon4 = document.getElementById("grid-item-4").innerHTML = "";
@@ -62,19 +51,26 @@ let finalDemon8 = document.getElementById("grid-item-8").innerHTML = '<img class
 
 //}
 
-//function randomFirstAttack (){
+function randomFirstAttack (){
 
-    let randomFirstAttack = Math.random()
+    // let randomFirstAttack = Math.random()
 
-    if (randomFirstAttack){}
+    // if (randomFirstAttack){}
+
+    let randomFirstAttack = .2
+
 
     //Good time to use switch statement because of many actions based on the value of a single variable
 
-    switch(randomFirstAttack){
-        case randomFirstAttack <= .2:
-            transporter1.innerHTML = 
+    if (randomFirstAttack <= .2){
+            transporter1.innerHTML = '<img class="first-demon" height="100" width="125" style="position: relative; left: 122px; top:125px" src="assets/images/demon-phases/first.png">';
+    } else if (randomFirstAttack > .2 && randomFirstAttack <= .4){
+            transporter2.innerHTML = '<img class="first-demon" height="100" width="125" style="position: relative; left: 122px; top:125px" src="assets/images/demon-phases/first.png">';
+
 
     }
+}
+            
 
     //let timer = 
     //if timer.value = 
