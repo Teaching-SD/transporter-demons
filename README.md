@@ -12,7 +12,7 @@ The web game is deployed at (TBA).
 
 Game Logic
 
-Players         must click directly on each space demon with their mouse as it appears before it grows big enough to be fully transported. If that happens, the game will be over. Players win by destroying all space demons within the 5-minute deadline. A timer on the screen shows the time remaining to get the job done. Then the player may click on the "Play Again" button to give it another try.
+Players must click directly on each space demon with their mouse as it appears before it grows big enough to be fully transported. If that happens, the game will be over. Players win by destroying all space demons within the 5-minute deadline. A timer on the screen shows the time remaining to get the job done. Then the player may click on the "Play Again" button to give it another try.
 
 
 # Post-MVP Plans
