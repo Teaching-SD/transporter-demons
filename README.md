@@ -2,10 +2,10 @@
 
 ## Description
 
-A group of space demons has discovered the codes to the transporters on the moon substation your astronaut team maintains. You have 5 minutes to destroy all incoming dmons before new transporter codes can be configured. Can you get all the demons in time before any are fully transported and ready to wreak havoc? We know you can!
+A group of space demons has discovered the codes to the transporters on the moon substation your astronaut team maintains. You have 5 minutes to destroy all incoming demons before new transporter codes can be configured. Can you get all the demons in time before any are fully transported and ready to wreak havoc? We know you can!
 
 
-## Deplyment
+## Deployment
 
 The web game is deployed at (TBA).
 
